@@ -436,13 +436,13 @@ padding: 37px;
 
 .ticker {
   overflow: hidden;
-  height: 80px;
+  height: 10rem;
   vertical-align: baseline;
 }
 
 .ticker h1 {
   margin: 0px;
-  height: 80px;
+  height: 10rem;
   -webkit-transition: margin-top 0.5s ease-in-out;
   -moz-transition: margin-top 0.5s ease-in-out;
   -o-transition: margin-top 0.5s ease-in-out;
@@ -4064,3 +4064,14 @@ ul.social-buttons li a:active {
 /* #tag-main-course{
   background-image: url("../images/pricing_tag_red-01.png");
 } */
+
+
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+
+  .card {
+    display: inline-block;
+  }
+}
