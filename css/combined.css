@@ -802,7 +802,7 @@ background-attachment: fixed;
 }
 
 @media (min-width:992px) {
-  .ticker-text { font-size: 73px !important;}
+  .ticker-text { font-size: 71px !important;}
   .jumbotron p {
     font-weight: 500 !important;
     font-size: 21px !important;
@@ -844,7 +844,7 @@ background-attachment: fixed;
 }
 
 @media (min-width:1200px) {
-  .ticker-text { font-size: 73px !important;}
+  .ticker-text { font-size: 71px !important;}
   .jumbotron p {
     font-weight: 500 !important;
     font-size: 21px !important;
